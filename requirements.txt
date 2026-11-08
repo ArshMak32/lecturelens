@@ -1,0 +1,7 @@
+numpy>=1.26,<3
+pandas>=2.2,<3
+scikit-learn>=1.5,<2
+pydantic>=2.10,<3
+streamlit>=1.67,<2
+faster-whisper>=1.2,<2
+av>=14,<16

@@ -1,0 +1,119 @@
+{
+  "title": "Machine Learning Essentials \u2014 authored transcript demo",
+  "source": "authored_demo",
+  "language": "en",
+  "segments": [
+    {
+      "id": "s001",
+      "start": 0,
+      "end": 18,
+      "text": "Supervised learning uses labeled examples to learn a mapping from inputs to outputs.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s002",
+      "start": 18,
+      "end": 38,
+      "text": "A training set is used to fit the model. A test set is held out to evaluate generalization on unseen examples.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s003",
+      "start": 38,
+      "end": 57,
+      "text": "Data leakage occurs when information unavailable at prediction time enters the training process.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s004",
+      "start": 57,
+      "end": 80,
+      "text": "Preprocessing should be fitted on training data only. A pipeline helps repeat preprocessing correctly inside each cross-validation fold.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s005",
+      "start": 80,
+      "end": 96,
+      "text": "Classification predicts discrete categories. Regression predicts numerical values.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s006",
+      "start": 96,
+      "end": 120,
+      "text": "Precision is the number of true positives divided by all predicted positives. High precision means fewer false alarms among positive predictions.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s007",
+      "start": 120,
+      "end": 143,
+      "text": "Recall is the number of true positives divided by all actual positives. High recall means fewer positive cases are missed.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s008",
+      "start": 143,
+      "end": 168,
+      "text": "For imbalanced datasets, accuracy can be misleading. A classifier that always predicts the majority class may have high accuracy but poor minority recall.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s009",
+      "start": 168,
+      "end": 193,
+      "text": "Overfitting means a model captures training-specific patterns that do not generalize. Regularization and suitable validation can reduce overfitting.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s010",
+      "start": 193,
+      "end": 218,
+      "text": "Cross-validation evaluates models across several training and validation splits. Hyperparameters should not be selected using the final test set.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s011",
+      "start": 218,
+      "end": 237,
+      "text": "A confusion matrix records true positives, false positives, true negatives and false negatives.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s012",
+      "start": 237,
+      "end": 260,
+      "text": "Model confidence is not a guarantee of correctness. Probability calibration compares predicted probabilities with observed frequencies.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s013",
+      "start": 260,
+      "end": 286,
+      "text": "A lower classification threshold usually increases recall and can increase false positives. Threshold selection should reflect the application and use validation data.",
+      "reviewed": true,
+      "avg_logprob": null
+    },
+    {
+      "id": "s014",
+      "start": 286,
+      "end": 308,
+      "text": "After deployment, changes in incoming data can reduce model performance. Monitoring and human feedback help identify these changes.",
+      "reviewed": true,
+      "avg_logprob": null
+    }
+  ]
+}

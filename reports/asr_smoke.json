@@ -1,0 +1,45 @@
+{
+  "scope": "11-second public speech smoke test, not lecture accuracy validation",
+  "source": "https://raw.githubusercontent.com/openai/whisper/main/tests/jfk.flac",
+  "audio_sha256": "63a4b1e4c1dc655ac70961ffbf518acd249df237e5a0152faae9a4a836949715",
+  "reference": "And so my fellow Americans ask not what your country can do for you ask what you can do for your country",
+  "hypothesis": "And so, my fellow Americans ask not what your country can do for you ask what you can do for your country.",
+  "word_error_rate": 0.0,
+  "seconds": 5.69,
+  "model": "faster-whisper tiny.en CPU int8",
+  "segments": 2,
+  "notes": [
+    {
+      "segment_id": "s0001",
+      "start": 0.0,
+      "end": 8.06,
+      "quote": "And so, my fellow Americans ask not what your country can do for you",
+      "reviewed": false
+    },
+    {
+      "segment_id": "s0002",
+      "start": 8.06,
+      "end": 10.48,
+      "quote": "ask what you can do for your country.",
+      "reviewed": false
+    }
+  ],
+  "cards": [
+    {
+      "question": "And so, my fellow _____ ask not what your country can do for you",
+      "answer": "Americans",
+      "segment_id": "s0001",
+      "start": 0.0,
+      "end": 8.06,
+      "source_quote": "And so, my fellow Americans ask not what your country can do for you"
+    },
+    {
+      "question": "ask what you can do for your _____.",
+      "answer": "country",
+      "segment_id": "s0002",
+      "start": 8.06,
+      "end": 10.48,
+      "source_quote": "ask what you can do for your country."
+    }
+  ]
+}
